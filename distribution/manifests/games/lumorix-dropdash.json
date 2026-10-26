@@ -2,10 +2,10 @@
   "id": "com.lumorix.dropdash",
   "itemType": "game",
   "platform": "desktop",
-  "name": "Lumorix DropDash",
+  "name": "VENSUKO DropDash",
   "version": "2.0.0",
   "description": "A compact offline arcade game built around quick dodge-and-collect runs.",
-  "developer": "Lumorix",
+  "developer": "VENSUKO",
   "releaseDate": "2026-05-06",
   "categories": [
     "Arcade",
