@@ -1,99 +1,111 @@
 {
-  "id": "com.lumorix.dropdash",
-  "itemType": "game",
-  "platform": "desktop",
-  "name": "VENSUKO DropDash",
-  "version": "2.0.0",
-  "description": "A compact offline arcade game built around quick dodge-and-collect runs.",
-  "developer": "VENSUKO",
-  "releaseDate": "2026-05-06",
-  "categories": [
-    "Arcade",
-    "Offline"
-  ],
-  "tags": [
-    {
-      "id": "arcade",
-      "weight": 3
-    },
-    {
-      "id": "offline",
-      "weight": 3
-    },
-    {
-      "id": "native",
-      "weight": 2
-    },
-    {
-      "id": "desktop",
-      "weight": 2
-    }
-  ],
-  "coverImage": "/assets/games/lumorix-dropdash-cover.svg",
-  "bannerImage": "/assets/games/lumorix-dropdash-banner.svg",
-  "iconImage": "/assets/games/lumorix-dropdash-icon.svg",
-  "executable": "LumorixDropDash.exe",
-  "installSizeBytes": 8416256,
-  "defaultInstallFolder": "Lumorix DropDash",
-  "distribution": {
-    "channel": "direct",
-    "packageType": "zip"
-  },
-  "supportedActions": [
-    "install",
-    "launch",
-    "update",
-    "repair",
-    "uninstall",
-    "openFolder",
-    "moveInstall"
-  ],
-  "installStrategy": {
-    "kind": "zipArchive",
-    "rootFolder": "."
-  },
-  "download": {
-    "kind": "httpArchive",
-    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64.zip",
-    "sha256": "298662543a025a9bc4bd520e4cdc2869c5195efb3c290a5ace105807bbf7fed1",
-    "sizeBytes": 2413042
-  },
-  "changelog": [
-    {
-      "version": "2.0.0",
-      "date": "2026-05-06",
-      "items": [
-        "Prepared DropDash for a split desktop-plus-Android release lane without changing desktop gameplay.",
-        "Added touch controls that stay hidden on non-touch desktop devices.",
-        "Refreshed the desktop archive metadata after rebuilding the standalone native runtime."
-      ]
-    },
-    {
-      "version": "1.1.3",
-      "date": "2026-04-28",
-      "items": [
-        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
-        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
-        "Prepared archive-based delivery for launcher updates and public upload."
-      ]
-    },
-    {
-      "version": "1.1.2",
-      "date": "2026-04-28",
-      "items": [
-        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
-        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
-        "Prepared archive-based delivery for launcher updates and public upload."
-      ]
-    },
-    {
-      "version": "1.1.1",
-      "date": "2026-04-28",
-      "items": [
-        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
-        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
-        "Prepared archive-based delivery for launcher updates and public upload."
-      ]
-    }
-  ]
+    "id":  "com.lumorix.dropdash",
+    "itemType":  "game",
+    "platform":  "desktop",
+    "name":  "VENSUKO DropDash",
+    "version":  "2.1.0",
+    "description":  "Offline arcade dodge-and-collect game with five modes, fair slow-motion and local high-score tables.",
+    "developer":  "VENSUKO",
+    "releaseDate":  "2026-10-28",
+    "categories":  [
+                       "Arcade",
+                       "Offline"
+                   ],
+    "tags":  [
+                 {
+                     "id":  "arcade",
+                     "weight":  3
+                 },
+                 {
+                     "id":  "offline",
+                     "weight":  3
+                 },
+                 {
+                     "id":  "native",
+                     "weight":  2
+                 },
+                 {
+                     "id":  "desktop",
+                     "weight":  2
+                 }
+             ],
+    "coverImage":  "/assets/games/lumorix-dropdash-cover.svg",
+    "bannerImage":  "/assets/games/lumorix-dropdash-banner.svg",
+    "iconImage":  "/assets/games/lumorix-dropdash-icon.svg",
+    "executable":  "LumorixDropDash.exe",
+    "installSizeBytes":  8421376,
+    "defaultInstallFolder":  "Lumorix DropDash",
+    "distribution":  {
+                         "channel":  "direct",
+                         "packageType":  "zip"
+                     },
+    "supportedActions":  [
+                             "install",
+                             "launch",
+                             "update",
+                             "repair",
+                             "uninstall",
+                             "openFolder",
+                             "moveInstall"
+                         ],
+    "installStrategy":  {
+                            "kind":  "zipArchive",
+                            "rootFolder":  "."
+                        },
+    "download":  {
+                     "kind":  "httpArchive",
+                     "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-2.1.0.zip",
+                     "sha256":  "7f6af1c69d09131f12c5ec1e779ada5361e0b1ecd16b9744e650511b2a3d9fb7",
+                     "sizeBytes":  2418146
+                 },
+    "changelog":  [
+                      {
+                          "version":  "2.1.0",
+                          "date":  "2026-10-28",
+                          "items":  [
+                                        "Added a local top-10 leaderboard for each game mode and difficulty, including player names and personal bests.",
+                                        "Introduced Rush 30, a fast 30-second score challenge, and Practice with three lives and no ranked scores.",
+                                        "Classic now has a clear five-wave finish; Endless difficulty scales progressively for longer runs.",
+                                        "Fixed Slow-Mo: hazards and collectible spawning slow together with falling movement, preventing dense obstacle walls.",
+                                        "Improved hazard spacing with safe-lane checks and removed double-slowing of newly spawned obstacles.",
+                                        "Refined mode descriptions, run results and HUD labels in English, German and Polish."
+                                    ]
+                      },
+                      {
+                          "version":  "2.0.0",
+                          "date":  "2026-05-06",
+                          "items":  [
+                                        "Prepared DropDash for a split desktop-plus-Android release lane without changing desktop gameplay.",
+                                        "Added touch controls that stay hidden on non-touch desktop devices.",
+                                        "Refreshed the desktop archive metadata after rebuilding the standalone native runtime."
+                                    ]
+                      },
+                      {
+                          "version":  "1.1.3",
+                          "date":  "2026-04-28",
+                          "items":  [
+                                        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
+                                        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
+                                        "Prepared archive-based delivery for launcher updates and public upload."
+                                    ]
+                      },
+                      {
+                          "version":  "1.1.2",
+                          "date":  "2026-04-28",
+                          "items":  [
+                                        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
+                                        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
+                                        "Prepared archive-based delivery for launcher updates and public upload."
+                                    ]
+                      },
+                      {
+                          "version":  "1.1.1",
+                          "date":  "2026-04-28",
+                          "items":  [
+                                        "Migrated DropDash from a browser launch flow to a standalone native Tauri desktop runtime.",
+                                        "Kept gameplay, visuals, controls, and scoring identical to the previous release.",
+                                        "Prepared archive-based delivery for launcher updates and public upload."
+                                    ]
+                      }
+                  ]
 }
