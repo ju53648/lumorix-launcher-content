@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">VENSUKO — Public Content</title>
+  <desc id="desc">Official public game catalog and distribution repository for the VENSUKO Launcher</desc>
+  <rect width="1200" height="320" fill="#11191b"/>
+  <rect width="8" height="320" fill="#35bdab"/>
+  <path d="M0 319.5H1200" stroke="#294246"/>
+  <g stroke="#24383b" stroke-width="1" opacity=".75">
+    <path d="M890 0V320M946 0V320M1002 0V320M1058 0V320M1114 0V320M1170 0V320"/>
+    <path d="M865 48H1200M865 104H1200M865 160H1200M865 216H1200M865 272H1200"/>
+  </g>
+  <g fill="none" stroke="#345d5a" opacity=".65">
+    <circle cx="1070" cy="166" r="118"/>
+    <circle cx="1070" cy="166" r="82"/>
+    <circle cx="1070" cy="166" r="43"/>
+  </g>
+  <path d="M890 0h310v320H890z" fill="#11191b" opacity=".35"/>
+  <rect x="65" y="84" width="126" height="126" rx="22" fill="#1b3132" stroke="#327168" stroke-width="2"/>
+  <path d="M92 113h21l27 70-14 17-34-87z" fill="#e9f7f3"/>
+  <path d="M147 113h22l-32 87-11-17 21-70z" fill="#35bdab"/>
+  <rect x="224" y="74" width="54" height="5" rx="2.5" fill="#35bdab"/>
+  <text x="221" y="155" fill="#f1f6f4" font-family="Arial, Helvetica, sans-serif" font-size="67" font-weight="700" letter-spacing="5">VENSUKO</text>
+  <text x="225" y="207" fill="#44c8b7" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="700" letter-spacing="6.5">PUBLIC CONTENT</text>
+  <path d="M225 230H805" stroke="#345054" stroke-width="1.5"/>
+  <text x="225" y="263" fill="#b3c4c2" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="2">GAME CATALOG  /  DISTRIBUTION FILES</text>
+  <text x="1146" y="51" fill="#77aca5" font-family="Arial, Helvetica, sans-serif" font-size="12" text-anchor="end" letter-spacing="2">OFFICIAL REPOSITORY</text>
+  <rect x="1134" y="270" width="12" height="12" fill="#35bdab"/>
+  <rect x="1112" y="270" width="12" height="12" fill="#2e615e"/>
+  <rect x="1090" y="270" width="12" height="12" fill="#1d3e3c"/>
+</svg>
