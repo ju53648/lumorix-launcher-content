@@ -16,7 +16,9 @@ const pubkey=join(root,"updater.pub");
 if(!existsSync(pubkey)) throw Error("Minisign public key missing");
 const expectedPublicKey=readFileSync(pubkey,"utf8").trim();
 if (!expectedPublicKey.startsWith("untrusted comment: minisign public key:")) throw Error("Invalid pubkey");
-for (const [arch,platform] of [["arm64","darwin-aarch64"],["x64","darwin-x86_64"]]){
+for (const [arch,platformKey] of [["arm64","darwin-aarch64"],["x64","darwin-x86_64"]]){
+  const platform=manifest.platforms[platformKey];
+  if(!platform || typeof platform.signature!=="string" || typeof platform.url!=="string") throw Error("Missing platform "+platformKey);
   const name="VENSUKO.Launcher_"+ver+"_macos-"+arch;
   const dir=join(root,"releases",ver);
   const archive=join(dir,name+".app.tar.gz");
