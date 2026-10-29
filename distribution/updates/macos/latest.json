@@ -1,17 +1,17 @@
 {
-  "version": "0.14.0",
-  "title": "VENSUKO Launcher 0.14.0 - Unified Desktop & Social Update",
-  "notes": "VENSUKO Launcher 0.14.0 - Unified Desktop & Social Update\n\n- Windows and macOS now share the same application version number and release tag, with platform-specific signed download packages.\n- New accounts complete a guided three-step setup before accessing the launcher: language, editable profile, and privacy preferences.\n- Friends is now conversation-first, with immediate private messages, clearer member selection, and separate shared-games tabs.\n- Improved smaller-screen layouts, Mac system labeling and game artwork; removed overlapping DropDash text from the game banner.\n- macOS now uses the VENSUKO Keychain service without automatically reading legacy Lumorix session items. A one-time sign-in may be needed.",
+  "version": "0.14.1",
+  "title": "VENSUKO Launcher 0.14.1 - Account Sign-out & Local Library Hotfix",
+  "notes": "VENSUKO Launcher 0.14.1 - Account Sign-out & Local Library Hotfix\n\n- Fixed account sign-out by using device-local session removal and displaying any remaining sign-out error directly.\n- Cloud synchronization of game libraries, playtime and settings is disabled until VENSUKO 1.0.0 and the dedicated server is operational.\n- Removed unfinished Cloud status, Sync now and account cloud-progress panels from the launcher.\n- Game library membership, playtime and preferences remain available locally without waiting on cloud database tables.\n- Account login, public profiles and Friends remain available through the existing account/social service.",
   "pub_date": "2026-10-29T12:00:00Z",
-  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.0-macos",
+  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.1-macos",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.0/VENSUKO.Launcher_0.14.0_macos-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEpySGM3UVI4VEl5cFQxT3VFS2o2eldoSEk1SXdtNW9XcTZrc2ZzdnprUEdqRDBxTnFzbzR3Z2c2Y1RGdW5NY2FFbXhkVlZCT1NaWkJubXBWMTRUZFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzAxNTg2CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CjZBcm1qdXJ4TDlJV2FSb0NkYVVJUlMzVmpCYnhqeTNLU2wvdVM3dHhMU3FPeWY5SC9jNjlrSTVsZ0dLNndPSFo4c2JUZjdIYkZWSGhIZGphNUk0SEJRPT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.1/VENSUKO.Launcher_0.14.1_macos-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEJuMzZKT2ZkYlVFTEdxT3hvdGVhaks2NG9iWndUdTM5ZHc3ak1RMjQ5Ukpydmw1U3dPeWVjL0tPZjNiVVdudkdDUjhlOEF4RzM4WTE5K3NwSFNLVFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA0ODA1CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkM2V0l3NFFCaVFXek9DZnNBWUl6MmZKVVQrNENTMlRhYk5lUStPblR0Q2didHNKS2FRZmd5dHU3Y09yTnlabE1GVnYvcGZBdzVsc3NqL1A0c2dyOUFRPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.0/VENSUKO.Launcher_0.14.0_macos-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEZJWjc1MGJkWE1DcVZsdy9kZDNIRkE0M2tYUkI3eGtucmRHRmFJSk9USWhWN2dyaUlwOHh1THhHNDBwYlNvRUJzYUY5RldxUWVEYStCeWdySHp5aHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzAxNzMyCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkNTUjhmYXoxT2N5dGF6MkMyUFZIazJqeGRMSEZWdWdhdUp2d1R1WGNYWnBmak55NXpuck1VbCs1SDBRNjE4L2w2WlB3cnBRaHNTcnZCWTFuSEhrT0F3PT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.1/VENSUKO.Launcher_0.14.1_macos-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEhYMDNJUnNSWU1sRzRWbEZYRXVpS3J4MXdob3M0aGZMeUlxV3Zpc2dhVDVzTDlPQlRWUjM2QXhQTmFaNmdnQTlLRUNXNEFqSEN4cjdXKzJvZGozdXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA1NDk0CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6ClFGdktoYVhnWnZnUUtDcUNiTlg0b21CbVdJRE9mRmhZU1ZRcFJXd3lXM3c5aUwwYWhEMjEzbVZNTUY2THZCYUlwR1BMQm04bjlGZHFzZjFiZlVMaUNnPT0K"
     }
   }
 }
