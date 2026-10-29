@@ -30,7 +30,12 @@ for (const [arch,platform] of [["arm64","darwin-aarch64"],["x64","darwin-x86_64"
     if(hash !== expected)throw Error("SHA256 mismatch: "+asset);
   }
   const encoded=readFileSync(signature,"utf8").trim();
-  if(platform.signature !== encoded)throw Error("Manifest signature mismatch for "+arch);
+  const signatureBytes=Buffer.from(encoded,"base64");
+  const manifestSignatureBytes=Buffer.from(platform.signature,"base64");
+  if(!signatureBytes.equals(manifestSignatureBytes)){
+    console.error("Signature mismatch diagnostic",arch,{fileBytes:signatureBytes.length,manifestBytes:manifestSignatureBytes.length});
+    throw Error("Manifest signature mismatch for "+arch);
+  }
   const expectedUrl="https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/"+archive.replaceAll("\\","/");
   if (platform.url!==expectedUrl)throw Error("Unexpected updater URL for "+arch);
   const decoded=signature+".decoded";
