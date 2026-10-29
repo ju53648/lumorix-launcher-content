@@ -1,0 +1,42 @@
+name: publish-macos-release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - distribution/updates/macos/latest.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: public-macos-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Verify and publish public macOS assets
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install signature verifier
+        run: sudo apt-get update -qq && sudo apt-get install -qq -y minisign
+      - name: Validate complete signed release
+        id: meta
+        shell: bash
+        run: node distribution/updates/macos/verify-release.mjs >> "$GITHUB_OUTPUT"
+      - name: Publish public DMG downloads and signed auto-updater bundles
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: VENSUKO Launcher ${{ steps.meta.outputs.version }} - macOS
+          body: ${{ steps.meta.outputs.release_notes }}
+          prerelease: true
+          draft: false
+          fail_on_unmatched_files: true
+          files: distribution/updates/macos/releases/${{ steps.meta.outputs.version }}/*
