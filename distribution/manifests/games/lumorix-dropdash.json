@@ -3,10 +3,10 @@
   "itemType": "game",
   "platform": "desktop",
   "name": "VENSUKO DropDash",
-  "version": "2.1.0",
-  "description": "Offline arcade dodge-and-collect game with five modes, fair slow-motion and local high-score tables.",
+  "version": "2.2.0",
+  "description": "Arcade dodge-and-collect game with ghost grace, rising blue-core streak bonuses, worldwide top-ten rankings and offline local scores.",
   "developer": "VENSUKO",
-  "releaseDate": "2026-10-28",
+  "releaseDate": "2026-10-29",
   "categories": [
     "Arcade",
     "Offline"
@@ -33,7 +33,7 @@
   "bannerImage": "/assets/games/lumorix-dropdash-banner.svg",
   "iconImage": "/assets/games/lumorix-dropdash-icon.svg",
   "executable": "LumorixDropDash.exe",
-  "installSizeBytes": 8421376,
+  "installSizeBytes": 8425984,
   "defaultInstallFolder": "Lumorix DropDash",
   "distribution": {
     "channel": "direct",
@@ -54,11 +54,23 @@
   },
   "download": {
     "kind": "httpArchive",
-    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-2.1.0.zip",
-    "sha256": "7f6af1c69d09131f12c5ec1e779ada5361e0b1ecd16b9744e650511b2a3d9fb7",
-    "sizeBytes": 2418146
+    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-2.2.0.zip",
+    "sha256": "b9c2b1e3755874e1272c87bf939707035a42a05effdc1f12339968fa4e04dc70",
+    "sizeBytes": 2408160
   },
   "changelog": [
+    {
+      "version": "2.2.0",
+      "date": "2026-10-29",
+      "items": [
+        "Added a one-second collision protection grace period after the Ghost power-up visibly expires.",
+        "Collecting consecutive cyan cores now grows the score combo by 25% per core, up to x5; missing a core resets the streak.",
+        "Added current streak, best streak and collected-core counts to the HUD and results.",
+        "New worldwide top-ten leaderboards for each ranked mode and difficulty, read from the online service.",
+        "VENSUKO account holders can optionally sign in to submit their personal bests; local high scores remain available offline.",
+        "Online leaderboards enforce account ownership and validation. Practice mode remains unranked."
+      ]
+    },
     {
       "version": "2.1.0",
       "date": "2026-10-28",
@@ -112,22 +124,22 @@
   "macosPackages": {
     "arm64": {
       "executable": "DropDash.app/Contents/MacOS/LumorixDropDash",
-      "installSizeBytes": 10631237,
+      "installSizeBytes": 10616352,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-2.1.0.zip",
-        "sha256": "cddf3b010525d68b7f6ceebd72feb1e2c2d6d2a4c5637333ee4c3017e15db08d",
-        "sizeBytes": 2608950
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-2.2.0.zip",
+        "sha256": "d96409756185b6b5f978134bf07062a1ae6496ff736d89575429da78093e2d63",
+        "sizeBytes": 2599663
       }
     },
     "x64": {
       "executable": "DropDash.app/Contents/MacOS/LumorixDropDash",
-      "installSizeBytes": 10853877,
+      "installSizeBytes": 10828480,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-2.1.0.zip",
-        "sha256": "887794209c6a95dc31bf036fb1d5af7586393b7cc12c15ee8c4433a95344a3f0",
-        "sizeBytes": 2735324
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-2.2.0.zip",
+        "sha256": "54e7ce5a276b619b5db5c27dadce6bdb17e6f58804ccc44fa5beabe4c7bbfb88",
+        "sizeBytes": 2724674
       }
     }
   }
