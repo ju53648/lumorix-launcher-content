@@ -1,17 +1,17 @@
 {
-  "version": "0.14.1",
-  "title": "VENSUKO Launcher 0.14.1 - Account Sign-out & Local Library Hotfix",
-  "notes": "VENSUKO Launcher 0.14.1 - Account Sign-out & Local Library Hotfix\n\n- Fixed account sign-out by using device-local session removal and displaying any remaining sign-out error directly.\n- Cloud synchronization of game libraries, playtime and settings is disabled until VENSUKO 1.0.0 and the dedicated server is operational.\n- Removed unfinished Cloud status, Sync now and account cloud-progress panels from the launcher.\n- Game library membership, playtime and preferences remain available locally without waiting on cloud database tables.\n- Account login, public profiles and Friends remain available through the existing account/social service.",
+  "version": "0.14.2",
+  "title": "VENSUKO Launcher 0.14.2 - Keychain & Sign-out Hotfix",
+  "notes": "VENSUKO Launcher 0.14.2 - Keychain & Sign-out Hotfix\n\n- Fixed account sign-out failing with Unsupported secure-session key by accepting the restricted Supabase session, user and PKCE keys.\n- macOS now uses a single isolated Keychain credential instead of dozens of session shards, avoiding repeated credential prompts on startup.\n- In-memory session caching prevents repeated Keychain reads while VENSUKO is running. Tokens remain in the operating system's protected credential store.\n- Mac users need to sign in once again after updating; old Lumorix/VENSUKO Keychain items are retained and not read, migrated or deleted automatically.\n- Windows and macOS receive the same launcher version. Full Apple Developer ID signing is still required to avoid every possible permission prompt across future Mac updates.",
   "pub_date": "2026-10-29T12:00:00Z",
-  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.1-macos",
+  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.2-macos",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.1/VENSUKO.Launcher_0.14.1_macos-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEJuMzZKT2ZkYlVFTEdxT3hvdGVhaks2NG9iWndUdTM5ZHc3ak1RMjQ5Ukpydmw1U3dPeWVjL0tPZjNiVVdudkdDUjhlOEF4RzM4WTE5K3NwSFNLVFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA0ODA1CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkM2V0l3NFFCaVFXek9DZnNBWUl6MmZKVVQrNENTMlRhYk5lUStPblR0Q2didHNKS2FRZmd5dHU3Y09yTnlabE1GVnYvcGZBdzVsc3NqL1A0c2dyOUFRPT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.2/VENSUKO.Launcher_0.14.2_macos-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WExlTXF5bW1wQ2JjT0ZzUVZoMDVWS2xsdGJpYndnMUlCTEpsam1DRUNueVRsaGNmQ1p0NmQvQlFxS1Vzcm1NMHRLdDFVWi9LUEVyVEtEUWVkaXUraUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA3MjkxCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6ClRGVGVFRVA3V2VOakh3VE9ORmxZZHU3SGhBMERxT2JjMWJidmRYNjl4Z3FCN3Nwc1RoWHBNVElrd0dVUlFjcU1rZnRKMXp6VmtQSE02MjQ0SlhpbkNnPT0K"
     },
     "darwin-x86_64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.1/VENSUKO.Launcher_0.14.1_macos-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEhYMDNJUnNSWU1sRzRWbEZYRXVpS3J4MXdob3M0aGZMeUlxV3Zpc2dhVDVzTDlPQlRWUjM2QXhQTmFaNmdnQTlLRUNXNEFqSEN4cjdXKzJvZGozdXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA1NDk0CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6ClFGdktoYVhnWnZnUUtDcUNiTlg0b21CbVdJRE9mRmhZU1ZRcFJXd3lXM3c5aUwwYWhEMjEzbVZNTUY2THZCYUlwR1BMQm04bjlGZHFzZjFiZlVMaUNnPT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.14.2/VENSUKO.Launcher_0.14.2_macos-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEFqTXd6cU9IMlBZV0I4cVBJQ2lPOGpCN3lrWEY4ZFVZRjk1Zk8xdVBpcmp3UWdXM3VRVE9pU2FhSU9YdXdxN3RBcEVLZWJmUTRHdzZUNkE4ZnFySVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzA4MjE1CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkhzTmo2TEdzY3A0SUJKOEZ1M21sdS85b3lVb0pzNmdFUTdkWmFDL25EZlIvaXlOWnR6Z3kwc0ZVZStZNTd3OGRoNmwrTUxESFIzMFlJRzRhT0ZuSkFRPT0K"
     }
   }
 }
