@@ -1,12 +1,14 @@
 {
   "version": "0.15.2",
-  "title": "VENSUKO Launcher 0.15.2 - Profile Artwork",
-  "notes": "VENSUKO Launcher 0.15.2 - Profile Artwork\n\n- Choose an approved profile picture and banner from the new gallery.\n- Selections are stored in your VENSUKO account and visible on public profile cards.\n- Only VENSUKO-curated artwork is allowed. User image uploads remain disabled.\n- Existing user names, libraries and privacy settings are preserved.",
+  "title": "VENSUKO Launcher 0.15.2 - Profile Gallery Redesign",
+  "notes": "VENSUKO Launcher 0.15.2 - Profile Gallery Redesign\n\n- Browse profile pictures and banners in separate tabs with compact, scrollable galleries.\n- Find approved artwork using search, categories and sorting.\n- Save favorites and preview selections on your profile before saving.\n- Refresh the Supabase artwork catalog without restarting VENSUKO.\n- See unsaved changes, save from the profile header or reset to the default appearance.\n- Existing profiles, game libraries, privacy settings and DropDash integration remain intact.",
   "notesList": [
-    "Choose an approved profile picture and banner from the new gallery.",
-    "Selections are stored in your VENSUKO account and visible on public profile cards.",
-    "Only VENSUKO-curated artwork is allowed. User image uploads remain disabled.",
-    "Existing user names, libraries and privacy settings are preserved."
+    "Browse profile pictures and banners in separate tabs with compact, scrollable galleries.",
+    "Find approved artwork using search, categories and sorting.",
+    "Save favorites and preview selections on your profile before saving.",
+    "Refresh the Supabase artwork catalog without restarting VENSUKO.",
+    "See unsaved changes, save from the profile header or reset to the default appearance.",
+    "Existing profiles, game libraries, privacy settings and DropDash integration remain intact."
   ],
   "pub_date": "2026-10-30T12:00:00Z",
   "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos",
