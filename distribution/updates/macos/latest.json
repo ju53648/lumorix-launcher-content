@@ -1,17 +1,23 @@
 {
-  "version": "0.15.1",
-  "title": "VENSUKO Launcher 0.15.1 - DropDash Account Integration",
-  "notes": "VENSUKO Launcher 0.15.1 - DropDash Account Integration\n\n- DropDash now automatically uses the signed-in account when launched through VENSUKO on Windows or macOS.\n- An isolated local game bridge submits leaderboard scores on the account's behalf without transferring passwords, refresh tokens or access tokens to the game.\n- DropDash no longer needs a second login; global rankings remain visible offline only when already loaded, and local scores always remain available.\n- The 0.15.0 profile-artwork gallery, games, and local library settings remain intact.",
+  "version": "0.15.2",
+  "title": "VENSUKO Launcher 0.15.2 - Profile Artwork",
+  "notes": "VENSUKO Launcher 0.15.2 - Profile Artwork\n\n- Choose an approved profile picture and banner from the new gallery.\n- Selections are stored in your VENSUKO account and visible on public profile cards.\n- Only VENSUKO-curated artwork is allowed. User image uploads remain disabled.\n- Existing user names, libraries and privacy settings are preserved.",
+  "notesList": [
+    "Choose an approved profile picture and banner from the new gallery.",
+    "Selections are stored in your VENSUKO account and visible on public profile cards.",
+    "Only VENSUKO-curated artwork is allowed. User image uploads remain disabled.",
+    "Existing user names, libraries and privacy settings are preserved."
+  ],
   "pub_date": "2026-10-30T12:00:00Z",
-  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.1-macos",
+  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.15.1/VENSUKO.Launcher_0.15.1_macos-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEpWNmpuU3BXQWd0aFlnalZUOXd2ZGJlMHkrTUpuSERESWErc3cvQ1hPUmRacDl5THA3NnA3QURJUmFDSmxZM0l2N2o5RnBQYm15ZGI4TmJsUFJmY0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzQ1NDgyCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CnV6dmxNVGNDekRuSUZianVzN2lxcHRYUHpodVVpaWRjcTJsaHZzYmN3aVE4R00rRllTa2Vkb3owQlhqVXpNSndFQ0VNVGJUdUpXLzlLR3ZvVThsa0FnPT0K"
+      "url": "https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.15.2-macos/VENSUKO.Launcher_0.15.2_macos-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEgrN2ZFeVBvVVdHd1NJaGdNaXg3ekVaS2JkY01iS0R5TmdMSlduTDRmekRlNGp6Z2pIRXRpbXcvd2VCMllYWFZJRDQ0N3ZHQlhvMER5dXdMcWVKeXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzUwNjUwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CjdsUEE1R3lTeWJMRk5nYU1JSmt6YlV3amQxeDJHbmQvSzlWck9PTEpDQWFXekZTbEs5K3ZTcHJYQk5OUEFvWHR4ZnNGTjJXSmVzbk5qNHoyaWhnSEJ3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.15.1/VENSUKO.Launcher_0.15.1_macos-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEtULzU4Qnh1U2Z3aFg3Vy9NazVWSTVacnhKUjA1TTdQWFFnOEt3L0psam1uZ21RZ1k3S25waGtmU0VxWDNlWlZhKzk5ZzMrWmpzNTBGUTY3cUpyYUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzQ1NzAzCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CnEvYW9VZ2JiaWtCYUw0dWZ1bnpSU3dkVnNkaUVvWDNBZjJpSlpqeFlRaUgwR2dpNEFMOHh1QnZGTkx4eDRmOEFBZVZTd0lzYyt6T3kxSVpMamxuVkR3PT0K"
+      "url": "https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.15.2-macos/VENSUKO.Launcher_0.15.2_macos-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEZZaWxmMm1kbzdyc0JvWDJrZFNvY2Q2ZDdCSEp0TUxSTi9QaTQ1VW9DWmZFOTU1N1U5TWwrbm5Xc3lPemlhRlUvUFE4YUVMUG4rQTJvYVVJVFNCRUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzUwODI0CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CjhPM2dROGFWTHVvOXZEekhhNGFuYmNGL0xiVjNPTXNXRmtlMElldzl1d0FMNlY5bjR3K011YStHMm1EZkIzdFdEZ0llL2haNW5zK3ZobWcxWkVxNUNBPT0K"
     }
   }
 }
