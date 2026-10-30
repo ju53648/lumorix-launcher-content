@@ -1,9 +1,9 @@
 {
   "version": "1",
-  "timestamp": "2026-10-28T18:49:17Z",
+  "timestamp": "2026-10-30T11:23:38Z",
   "manifests": [
     {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/manifests/games/lumorix-dropdash.json?v=2.1.0-macos1"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/manifests/games/lumorix-dropdash.json?v=2.3.0"
     },
     {
       "url": "https://raw.githubusercontent.com/ju53648/portloria-builds/main/launcher-manifest.json"

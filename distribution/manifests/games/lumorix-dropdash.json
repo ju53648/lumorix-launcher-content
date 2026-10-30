@@ -3,8 +3,8 @@
   "itemType": "game",
   "platform": "desktop",
   "name": "VENSUKO DropDash",
-  "version": "2.2.1",
-  "description": "DropDash now uses the active VENSUKO Launcher account to submit worldwide records, without a second login.",
+  "version": "2.3.0",
+  "description": "Fast-paced arcade game with mode-specific local and worldwide rankings, personal record cards, core combos and launcher account sync.",
   "developer": "VENSUKO",
   "releaseDate": "2026-10-30",
   "categories": [
@@ -54,11 +54,22 @@
   },
   "download": {
     "kind": "httpArchive",
-    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-2.2.1.zip",
-    "sha256": "ecf7240c51b7aa9257f823266ba12326745bf9e2ac82ef53710ca6174eaa4c17",
-    "sizeBytes": 2433230
+    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-2.3.0.zip",
+    "sha256": "f8dbf7da436714d142cbf0a416943fab457a07c41788b82131d48955edf0e6f4",
+    "sizeBytes": 2448585
   },
   "changelog": [
+    {
+      "version": "2.3.0",
+      "date": "2026-10-30",
+      "items": [
+        "Introduced dedicated leaderboard filters for game mode and difficulty, separate from the game selection.",
+        "Added personal local-best and placement cards, podium highlighting, and clearer worldwide refresh, connection and error statuses.",
+        "Improved ranking readability at smaller window sizes and added a main-menu button after each run.",
+        "Preserved VENSUKO Launcher single sign-on for global record submissions without sharing credentials with the game.",
+        "Local records remain usable offline; Training remains unranked."
+      ]
+    },
     {
       "version": "2.2.1",
       "date": "2026-10-30",
@@ -137,9 +148,9 @@
       "installSizeBytes": 10673152,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-2.2.1.zip",
-        "sha256": "9075edd5c356b54770e0d04ed6ec2dffacbbef3dc3b34c14c451141cad1ccca9",
-        "sizeBytes": 2619618
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-2.3.0.zip",
+        "sha256": "3b626538fc97f9aec852a23a7845c4e0c3ff77fa5adf055081516eaf671c73a7",
+        "sizeBytes": 2623268
       }
     },
     "x64": {
@@ -147,9 +158,9 @@
       "installSizeBytes": 10880544,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-2.2.1.zip",
-        "sha256": "3b34d0b397fe979ead726047523c8e25db545cb98a0f4312fae3ac01f054eb39",
-        "sizeBytes": 2746466
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-2.3.0.zip",
+        "sha256": "97f460d5048b602aa70932a45e9fa4ab829e03a6829c8d69bc988032e6a43512",
+        "sizeBytes": 2748631
       }
     }
   }
