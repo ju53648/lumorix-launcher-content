@@ -1,24 +1,24 @@
 {
-    "version":  "0.16.6",
-    "title":  "VENSUKO Launcher 0.16.6 - Achievements \u0026 Account Playtime",
-    "notes":  "VENSUKO Launcher 0.16.6 - Achievements \u0026 Account Playtime\n\n- Reworked game-detail achievements into a compact progress overview with four featured goals instead of an endlessly long list.\n- Browse all 102 achievements in a dedicated scrollable dialog with search and filters for unlocked and locked challenges.\n- Display account playtime as the sole game-detail playtime; never display or fall back to a separate local counter.\n- Keep new play sessions accurately attributed to the signed-in account with retry-safe per-installation synchronization.\n- Preserve launcher-owned bottom-right achievement notifications, existing in-game achievement lists, game saves and cloud account progress.",
-    "notesList":  [
-                      "Reworked game-detail achievements into a compact progress overview with four featured goals instead of an endlessly long list.",
-                      "Browse all 102 achievements in a dedicated scrollable dialog with search and filters for unlocked and locked challenges.",
-                      "Display account playtime as the sole game-detail playtime; never display or fall back to a separate local counter.",
-                      "Keep new play sessions accurately attributed to the signed-in account with retry-safe per-installation synchronization.",
-                      "Preserve launcher-owned bottom-right achievement notifications, existing in-game achievement lists, game saves and cloud account progress."
-                  ],
-    "pub_date":  "2026-10-31T10:53:13Z",
-    "releaseUrl":  "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.6",
-    "platforms":  {
-                      "darwin-aarch64":  {
-                                             "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.6/VENSUKO.Launcher_0.16.6_macos-arm64.app.tar.gz",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEFEc3FHUlh1WUYxczRGRFFZRGk4ZWtBZXgvOTc5N1o3dmJ4M2JYQ0swWU0rWGgxaGJuZTNxWmFJVG1CcmI2N3pKSVJ0azNPYzdiTUp3aFQzVGhEbWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQyMjM5CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Ck1IVGdoMlJXczhTdlI3ZmsxR0l4Mnh6YVF6N3BRaE1PczQvTXRNcVZkOHdMN09EY25jU0k5UTNOaEhIN0t1QzhWTDllQUZkdUxhZUNmMCtKYTVOTUFRPT0K"
-                                         },
-                      "darwin-x86_64":  {
-                                            "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.6/VENSUKO.Launcher_0.16.6_macos-x64.app.tar.gz",
-                                            "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WElhUEJWUjlSS25HOC9LMklZNVF0bG1OWk83cUVqcUdLRCt1aFFvbGRXeWxGMHhUZCtrWU5WcC9EV1JmVXN2d0xvcEJ2L1NsMmRsckpDYlJhcFhqVkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQyNDA4CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CnhaNEJXRDNvczNSeTNsRGpPYzZielk5V1NrSkkrd2ZiSS92TVRSd3pBOHJlQWoreUltZFRmR3lpK2xQNStJckl5THJuS3lFcUxyRUVlcXBuZjNJcEJnPT0K"
-                                        }
-                  }
+  "version": "0.16.7",
+  "title": "VENSUKO Launcher 0.16.7 - Feedback & German Localization",
+  "notes": "VENSUKO Launcher 0.16.7 - Feedback & German Localization\n\n- Feedback is now directly accessible from the sidebar throughout the Launcher.\n- Game pages have a visible feedback button that automatically includes the selected game.\n- Settings also has its own feedback tab. The existing protected delivery system remains unchanged.\n- Corrected German release notes in Community and About, including past updates from version 0.16.1 onward.\n- Games, achievements, accounts, saves, Discord sign-in and Windows/macOS support remain intact.",
+  "notesList": [
+    "Feedback is now directly accessible from the sidebar throughout the Launcher.",
+    "Game pages have a visible feedback button that automatically includes the selected game.",
+    "Settings also has its own feedback tab. The existing protected delivery system remains unchanged.",
+    "Corrected German release notes in Community and About, including past updates from version 0.16.1 onward.",
+    "Games, achievements, accounts, saves, Discord sign-in and Windows/macOS support remain intact."
+  ],
+  "pub_date": "2026-10-31T12:00:00Z",
+  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.7",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.7/VENSUKO.Launcher_0.16.7_macos-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WE9aYXBvRUYxQ2M2blhYSXFEdmVKZ25ramdoZm1MWE5PYkZsa1ptMUNmTERQd01DdjRNRXRMUnI0WURPNjhrVEppdDkwaWJqaGpZemo5QTRYcGxsRFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDU5MTA5CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CjNBNmtxb25VcUVtTFYrWlo3WTIwMmE4YmVxaGpyVUxrTUVSRWN5N0hyME5tOFV0ZHg5VkwwSmY1OEVEamhjZHdheWF5d0NyVTdtWllTRzcxbjF3eUF3PT0K"
+    },
+    "darwin-x86_64": {
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.7/VENSUKO.Launcher_0.16.7_macos-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WExyanduR1RqSGhuTWt0UFF4V0RGQ2tuWUE1eW1HM3pKYlhSRVRscHZEdFluMjYxMW1BVmtRT1RTSUpRYUpTUWpMa1plK3Fxc1VxN0Nidko2cTNZcVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDU4NjYyCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CmJqd2dlTTdEcG1TQ2lkbUJqd3BuMTRPejZuMHZReGVyZTJPWFRZSDV3L1ROVjRrRldZZUt2Wk9uSWc5ZU90RkdVamxrMEs4VWZ5U3k0NGRqSVZjRkN3PT0K"
+    }
+  }
 }
