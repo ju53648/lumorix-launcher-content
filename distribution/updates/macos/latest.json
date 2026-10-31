@@ -1,25 +1,24 @@
 {
-    "version":  "0.16.5",
-    "title":  "VENSUKO Launcher 0.16.5 - Achievements \u0026 Playtime",
-    "notes":  "VENSUKO Launcher 0.16.5 - Achievements \u0026 Playtime\n\n- Achievements now appear as uniform VENSUKO notifications at the lower-right corner of the screen, delivered by the Launcher rather than by each game.\n- DropDash forwards its unlock events through the secure launcher bridge while its in-game achievements browser stays available.\n- Show total account playtime consistently in the profile and game detail page, with the current device\u0027s local playtime identified separately.\n- Synchronize only new, account-attributable native playtime with retry-safe per-installation baselines; preserve all older account and local totals.\n- Keep the existing library and preferences cloud-sync gate disabled; no changes to login, gameplay, achievements, friends, downloads or existing saves.\n- Support macOS achievement notifications with a compatible dark window without enabling private Apple APIs.",
+    "version":  "0.16.6",
+    "title":  "VENSUKO Launcher 0.16.6 - Achievements \u0026 Account Playtime",
+    "notes":  "VENSUKO Launcher 0.16.6 - Achievements \u0026 Account Playtime\n\n- Reworked game-detail achievements into a compact progress overview with four featured goals instead of an endlessly long list.\n- Browse all 102 achievements in a dedicated scrollable dialog with search and filters for unlocked and locked challenges.\n- Display account playtime as the sole game-detail playtime; never display or fall back to a separate local counter.\n- Keep new play sessions accurately attributed to the signed-in account with retry-safe per-installation synchronization.\n- Preserve launcher-owned bottom-right achievement notifications, existing in-game achievement lists, game saves and cloud account progress.",
     "notesList":  [
-                      "Achievements now appear as uniform VENSUKO notifications at the lower-right corner of the screen, delivered by the Launcher rather than by each game.",
-                      "DropDash forwards its unlock events through the secure launcher bridge while its in-game achievements browser stays available.",
-                      "Show total account playtime consistently in the profile and game detail page, with the current device\u0027s local playtime identified separately.",
-                      "Synchronize only new, account-attributable native playtime with retry-safe per-installation baselines; preserve all older account and local totals.",
-                      "Keep the existing library and preferences cloud-sync gate disabled; no changes to login, gameplay, achievements, friends, downloads or existing saves.",
-                      "Support macOS achievement notifications with a compatible dark window without enabling private Apple APIs."
+                      "Reworked game-detail achievements into a compact progress overview with four featured goals instead of an endlessly long list.",
+                      "Browse all 102 achievements in a dedicated scrollable dialog with search and filters for unlocked and locked challenges.",
+                      "Display account playtime as the sole game-detail playtime; never display or fall back to a separate local counter.",
+                      "Keep new play sessions accurately attributed to the signed-in account with retry-safe per-installation synchronization.",
+                      "Preserve launcher-owned bottom-right achievement notifications, existing in-game achievement lists, game saves and cloud account progress."
                   ],
-    "pub_date":  "2026-10-31T09:57:22Z",
-    "releaseUrl":  "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.5",
+    "pub_date":  "2026-10-31T10:53:13Z",
+    "releaseUrl":  "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.6",
     "platforms":  {
                       "darwin-aarch64":  {
-                                             "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.5/VENSUKO.Launcher_0.16.5_macos-arm64.app.tar.gz",
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEVQRTJkWlZqL3YrTTEzNFFzR1g0eGFlR3RHVmNRUU9YaDRkQnhSY01wblN2Vm8vT3NBZHhaMFlsSHJCcGR4d2dCL1A5ZVNqcTlna0l6dCtHcXg0OWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAzNTAwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkhmbDN4dEIzVjJkUmVNWHg2QTEvNFUvLzlXOHdhUzYrazROM3RMSHVyTlNrc3UxT1NPUWg4d3Rnd3VYTlhBNGZiejZBbnBWWnNRaEdrcG9YdElJVUF3PT0K"
+                                             "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.6/VENSUKO.Launcher_0.16.6_macos-arm64.app.tar.gz",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEFEc3FHUlh1WUYxczRGRFFZRGk4ZWtBZXgvOTc5N1o3dmJ4M2JYQ0swWU0rWGgxaGJuZTNxWmFJVG1CcmI2N3pKSVJ0azNPYzdiTUp3aFQzVGhEbWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQyMjM5CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Ck1IVGdoMlJXczhTdlI3ZmsxR0l4Mnh6YVF6N3BRaE1PczQvTXRNcVZkOHdMN09EY25jU0k5UTNOaEhIN0t1QzhWTDllQUZkdUxhZUNmMCtKYTVOTUFRPT0K"
                                          },
                       "darwin-x86_64":  {
-                                            "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.5/VENSUKO.Launcher_0.16.5_macos-x64.app.tar.gz",
-                                            "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEhtQ1EyZFpkY29vSjhuY2w0T2dYZFhLcXJZdko4WXdTbTMrd01BTzF3YVlZaVI2Y2dDK3NUbTliSm9ldnRFeDBTcDFvcGYzcTdvK1hoVlc1R0dGM2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAzNzUwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Cm5POTVONlVUUXpURG5iaVBOSjdQSHRJaEFidVY5cVhJa2psN2x1ZlVIWXlsUjNnZmZSU3NPK2YvcFJHeFpFOEdVQUxUd25neXg1T3RhbUFaVzdzUER3PT0K"
+                                            "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.6/VENSUKO.Launcher_0.16.6_macos-x64.app.tar.gz",
+                                            "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WElhUEJWUjlSS25HOC9LMklZNVF0bG1OWk83cUVqcUdLRCt1aFFvbGRXeWxGMHhUZCtrWU5WcC9EV1JmVXN2d0xvcEJ2L1NsMmRsckpDYlJhcFhqVkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDQyNDA4CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CnhaNEJXRDNvczNSeTNsRGpPYzZielk5V1NrSkkrd2ZiSS92TVRSd3pBOHJlQWoreUltZFRmR3lpK2xQNStJckl5THJuS3lFcUxyRUVlcXBuZjNJcEJnPT0K"
                                         }
                   }
 }
