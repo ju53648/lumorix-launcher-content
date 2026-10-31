@@ -3,7 +3,7 @@
   "itemType": "game",
   "platform": "desktop",
   "name": "VENSUKO DropDash",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Dodge falling hazards, gather energy cores and climb the rankings. Five arcade modes, 102 achievements, shield combos and a new original soundtrack.",
   "developer": "VENSUKO",
   "releaseDate": "2026-10-31",
@@ -54,11 +54,21 @@
   },
   "download": {
     "kind": "httpArchive",
-    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-3.0.2.zip",
-    "sha256": "baf18a34e8b10db26368e1d9a996d6df357a055b0c14736de3ea418a55f009b9",
-    "sizeBytes": 3605739
+    "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-win64-3.0.3.zip",
+    "sha256": "28876a595136db6ff7e1c903bc7deeccf20817f64004022e0313c51330edf666",
+    "sizeBytes": 3606703
   },
   "changelog": [
+    {
+      "version": "3.0.3",
+      "date": "2026-10-31",
+      "items": [
+        "Corrected German button labels, mode descriptions, result messages and leaderboard wording.",
+        "Restored proper German umlauts, including 'Persönlicher Rekord', and renamed 'Sound & Musik' to 'Ton & Musik'.",
+        "Improved start and collision messages without changing gameplay mechanics.",
+        "All 102 achievements, saves, account-linked leaderboards, audio tracks and progress remain intact."
+      ]
+    },
     {
       "version": "3.0.2",
       "date": "2026-10-31",
@@ -179,22 +189,22 @@
   "macosPackages": {
     "arm64": {
       "executable": "DropDash.app/Contents/MacOS/LumorixDropDash",
-      "installSizeBytes": 11666336,
+      "installSizeBytes": 11666720,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-3.0.2.zip",
-        "sha256": "b603f8710547e75c37dda1280ca9a24ea914fbdd3b4fc0228615c71e69eb4bef",
-        "sizeBytes": 4282168
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-arm64-3.0.3.zip",
+        "sha256": "8f4fd96f09c3f34c84814adcfbb8989a025db75d0ce640590401f11dc2e03fb7",
+        "sizeBytes": 4283053
       }
     },
     "x64": {
       "executable": "DropDash.app/Contents/MacOS/LumorixDropDash",
-      "installSizeBytes": 11873056,
+      "installSizeBytes": 11877184,
       "download": {
         "kind": "httpArchive",
-        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-3.0.2.zip",
-        "sha256": "0208dead58d92c701fc0dee681b82215db60db991d4f4c63c94f70f3b7567fd7",
-        "sizeBytes": 4406847
+        "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/games/lumorix-dropdash/release/lumorix-dropdash-macos-x64-3.0.3.zip",
+        "sha256": "5c34e2583f91842d88e49121621578afd88ecfb0b76389b6941c41db1809752b",
+        "sizeBytes": 4406844
       }
     }
   },
@@ -223,6 +233,12 @@
           "DropDash forwards only achievement event details through its secure launcher bridge; account unlocks remain server-managed.",
           "Requires VENSUKO Launcher 0.16.4 or newer for the platform-owned popup, while the game stays fully playable with older Launchers.",
           "Ranked modes, music, leaderboards, previous progress and saves remain unchanged."
+        ],
+        "3.0.3": [
+          "Corrected German button labels, mode descriptions, result messages and leaderboard wording.",
+          "Restored proper German umlauts, including 'Persönlicher Rekord', and renamed 'Sound & Musik' to 'Ton & Musik'.",
+          "Improved start and collision messages without changing gameplay mechanics.",
+          "All 102 achievements, saves, account-linked leaderboards, audio tracks and progress remain intact."
         ]
       }
     },
@@ -250,6 +266,12 @@
           "DropDash meldet lediglich das Ereignis an den Launcher. Die dauerhafte Account-Freischaltung erfolgt weiterhin serverseitig.",
           "F?r die neue Benachrichtigung wird VENSUKO Launcher 0.16.4 oder neuer ben?tigt; das Spiel l?uft auch mit ?lteren Launcher-Versionen.",
           "Spielmodi, Musik, Ranglisten und vorhandene Spielst?nde bleiben erhalten."
+        ],
+        "3.0.3": [
+          "Deutsche Texte im Hauptmenü, in den Modi, auf dem Ergebnisbildschirm und in den Ranglisten korrigiert.",
+          "Umlaute in Begriffen wie „Persönlicher Rekord“ wiederhergestellt und „Sound & Musik“ in „Ton & Musik“ umbenannt.",
+          "Beschriftungen zum Starten und bei Kollisionen verbessert, ohne die Spielmechanik zu verändern.",
+          "Alle 102 Erfolge, Spielstände, Kontoverbindung, Ranglisten, Musik und Fortschritte bleiben erhalten."
         ]
       }
     },
@@ -277,6 +299,12 @@
           "DropDash przesy?a jedynie dane zdarzenia do Launchera, a zapis osi?gni?? na koncie nadal odbywa si? na serwerze.",
           "Powiadomienia wymagaj? VENSUKO Launcher 0.16.4 lub nowszego, ale gra dzia?a tak?e ze starszym Launcherem.",
           "Tryby gry, muzyka, rankingi i dotychczasowe zapisy pozostaj? bez zmian."
+        ],
+        "3.0.3": [
+          "Poprawiono niemieckie nazwy przycisków, opisy trybów, komunikaty wyników i teksty rankingów.",
+          "Przywrócono niemieckie znaki diakrytyczne i ujednolicono nazwy opcji dźwiękowych.",
+          "Ulepszono komunikaty rozpoczęcia gry i kolizji bez zmiany zasad rozgrywki.",
+          "Wszystkie 102 osiągnięcia, zapisy, konta, rankingi, muzyka i postępy pozostają bez zmian."
         ]
       }
     }
