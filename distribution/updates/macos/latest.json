@@ -1,17 +1,25 @@
 {
-  "version": "0.16.1",
-  "title": "VENSUKO Launcher 0.16.1 - Discord Sign-in & Feedback",
-  "notes": "VENSUKO Launcher 0.16.1 - Discord Sign-in & Feedback\n\n- Sign in or register with Discord through the system browser on Windows and macOS, with an authenticated return to the Launcher and secure PKCE session exchange.\n- Keep the existing email-and-password login, account verification, OS-protected sessions and account profiles intact.\n- Retain all v0.16.0 feedback features: Launcher Settings feedback, game-specific bug reports and ideas, and protected server relay to the support Discord channel.\n- Preserve existing game libraries, saved games, DropDash account integration, profile customization and account settings.\n- Release the same version for Windows, Intel Macs and Apple Silicon Macs with separate signed updater packages.",
-  "pub_date": "2026-10-30T12:00:00Z",
-  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.16.1-macos",
-  "platforms": {
-    "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.1/VENSUKO.Launcher_0.16.1_macos-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WE5ORmdnemlKN0ZsQUN4bWxsTWtxM3IxVTFvZlB1OVBjUXdVZFFwenk1NnJjenBLN1c1MjFWa1pYRUxmNGUzY3hScFhra3pwdVZBZ1dGbXRQSmxjeXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzY4NjU5CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkV3S2pUMzRjMUIvemlZRSt1cldKNE40QVpFeGhwN1pVUkpHdDFwQ0xocmh1Vi9zU0VBWEE0V05Gb1QzZGJHNzhDcVZkbHF2bDFtcTl0Kzlnem5ZaEJRPT0K"
-    },
-    "darwin-x86_64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.1/VENSUKO.Launcher_0.16.1_macos-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WE0vNmlzYmlMM3VzUlJhOEFiOE45aXZlUW5zejdOemNhZENMdHZpRHE1YjRGWGg3akVmeU4vQVFHa0JGVlFYMnEzRzVGNDVjc2VlMUJudGw2aEZSUWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMzY4OTQyCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Cnl0SjZOZFVQM0pkS3Z5UGpRVjJ5Yk5TRytqZnY5UTdzU1JOWHpWMDdzbXdKNHNIelA3akxiZFZOeCtNOHI4UmJLVmpUYjVoTnVDTXlpRDV3TnZsZ0RRPT0K"
-    }
-  }
+    "version":  "0.16.5",
+    "title":  "VENSUKO Launcher 0.16.5 - Achievements \u0026 Playtime",
+    "notes":  "VENSUKO Launcher 0.16.5 - Achievements \u0026 Playtime\n\n- Achievements now appear as uniform VENSUKO notifications at the lower-right corner of the screen, delivered by the Launcher rather than by each game.\n- DropDash forwards its unlock events through the secure launcher bridge while its in-game achievements browser stays available.\n- Show total account playtime consistently in the profile and game detail page, with the current device\u0027s local playtime identified separately.\n- Synchronize only new, account-attributable native playtime with retry-safe per-installation baselines; preserve all older account and local totals.\n- Keep the existing library and preferences cloud-sync gate disabled; no changes to login, gameplay, achievements, friends, downloads or existing saves.\n- Support macOS achievement notifications with a compatible dark window without enabling private Apple APIs.",
+    "notesList":  [
+                      "Achievements now appear as uniform VENSUKO notifications at the lower-right corner of the screen, delivered by the Launcher rather than by each game.",
+                      "DropDash forwards its unlock events through the secure launcher bridge while its in-game achievements browser stays available.",
+                      "Show total account playtime consistently in the profile and game detail page, with the current device\u0027s local playtime identified separately.",
+                      "Synchronize only new, account-attributable native playtime with retry-safe per-installation baselines; preserve all older account and local totals.",
+                      "Keep the existing library and preferences cloud-sync gate disabled; no changes to login, gameplay, achievements, friends, downloads or existing saves.",
+                      "Support macOS achievement notifications with a compatible dark window without enabling private Apple APIs."
+                  ],
+    "pub_date":  "2026-10-31T09:57:22Z",
+    "releaseUrl":  "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.5",
+    "platforms":  {
+                      "darwin-aarch64":  {
+                                             "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.5/VENSUKO.Launcher_0.16.5_macos-arm64.app.tar.gz",
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEVQRTJkWlZqL3YrTTEzNFFzR1g0eGFlR3RHVmNRUU9YaDRkQnhSY01wblN2Vm8vT3NBZHhaMFlsSHJCcGR4d2dCL1A5ZVNqcTlna0l6dCtHcXg0OWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAzNTAwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CkhmbDN4dEIzVjJkUmVNWHg2QTEvNFUvLzlXOHdhUzYrazROM3RMSHVyTlNrc3UxT1NPUWg4d3Rnd3VYTlhBNGZiejZBbnBWWnNRaEdrcG9YdElJVUF3PT0K"
+                                         },
+                      "darwin-x86_64":  {
+                                            "url":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.5/VENSUKO.Launcher_0.16.5_macos-x64.app.tar.gz",
+                                            "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEhtQ1EyZFpkY29vSjhuY2w0T2dYZFhLcXJZdko4WXdTbTMrd01BTzF3YVlZaVI2Y2dDK3NUbTliSm9ldnRFeDBTcDFvcGYzcTdvK1hoVlc1R0dGM2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDAzNzUwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Cm5POTVONlVUUXpURG5iaVBOSjdQSHRJaEFidVY5cVhJa2psN2x1ZlVIWXlsUjNnZmZSU3NPK2YvcFJHeFpFOEdVQUxUd25neXg1T3RhbUFaVzdzUER3PT0K"
+                                        }
+                  }
 }
