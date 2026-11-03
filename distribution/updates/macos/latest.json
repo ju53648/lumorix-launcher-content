@@ -1,24 +1,22 @@
 {
-  "version": "0.16.7",
-  "title": "VENSUKO Launcher 0.16.7 - Feedback & German Localization",
-  "notes": "VENSUKO Launcher 0.16.7 - Feedback & German Localization\n\n- Feedback is now directly accessible from the sidebar throughout the Launcher.\n- Game pages have a visible feedback button that automatically includes the selected game.\n- Settings also has its own feedback tab. The existing protected delivery system remains unchanged.\n- Corrected German release notes in Community and About, including past updates from version 0.16.1 onward.\n- Games, achievements, accounts, saves, Discord sign-in and Windows/macOS support remain intact.",
+  "version": "0.17.2",
+  "title": "VENSUKO Launcher 0.17.2 - Reliable Restart Hotfix",
+  "notes": "VENSUKO Launcher 0.17.2 - Reliable Restart Hotfix\n\n- Fixed an intermittent Windows restart problem: closing the main window now completes shutdown even if a hidden overlay keeps the event loop alive.\n- The main-window close handler now has a bounded fallback; an existing launcher instance can no longer silently swallow future shortcut launches.\n- The automatic installer migration preserves existing game libraries, saves, settings, and sign-in data. Includes the VENSUKO 0.17.0 improvements.",
   "notesList": [
-    "Feedback is now directly accessible from the sidebar throughout the Launcher.",
-    "Game pages have a visible feedback button that automatically includes the selected game.",
-    "Settings also has its own feedback tab. The existing protected delivery system remains unchanged.",
-    "Corrected German release notes in Community and About, including past updates from version 0.16.1 onward.",
-    "Games, achievements, accounts, saves, Discord sign-in and Windows/macOS support remain intact."
+    "Fixed an intermittent Windows restart problem: closing the main window now completes shutdown even if a hidden overlay keeps the event loop alive.",
+    "The main-window close handler now has a bounded fallback; an existing launcher instance can no longer silently swallow future shortcut launches.",
+    "The automatic installer migration preserves existing game libraries, saves, settings, and sign-in data. Includes the VENSUKO 0.17.0 improvements."
   ],
-  "pub_date": "2026-10-31T12:00:00Z",
-  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.16.7",
+  "pub_date": "2026-11-03T12:00:00Z",
+  "releaseUrl": "https://github.com/ju53648/lumorix-launcher-content/tree/main/distribution/updates/macos/releases/0.17.2",
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.7/VENSUKO.Launcher_0.16.7_macos-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WE9aYXBvRUYxQ2M2blhYSXFEdmVKZ25ramdoZm1MWE5PYkZsa1ptMUNmTERQd01DdjRNRXRMUnI0WURPNjhrVEppdDkwaWJqaGpZemo5QTRYcGxsRFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDU5MTA5CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CjNBNmtxb25VcUVtTFYrWlo3WTIwMmE4YmVxaGpyVUxrTUVSRWN5N0hyME5tOFV0ZHg5VkwwSmY1OEVEamhjZHdheWF5d0NyVTdtWllTRzcxbjF3eUF3PT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.17.2/VENSUKO.Launcher_0.17.2_macos-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WE5LcTZ6S01pVGQ2VUltKzVWUWdPdSt3WG5nQk5iNnA1ejVSTjhZcUJvQnlnOGdGeTY2aXRkWi9jUG9DMy9rM0pkZzV4TFpnNnJrZDdtNkJURDU0aVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY2MjMwCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6Ci84TGJrUE1EOVkvcUFsd3FNOEZpZUpuYzJ2R3daVXhoeW53OXJQK2Z4R0drbHd5TlRXNlg0SlhsMS90eFRudHJMK1J5TVlJWG52UjBBTmtuTmdRMkF3PT0K"
     },
     "darwin-x86_64": {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.16.7/VENSUKO.Launcher_0.16.7_macos-x64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WExyanduR1RqSGhuTWt0UFF4V0RGQ2tuWUE1eW1HM3pKYlhSRVRscHZEdFluMjYxMW1BVmtRT1RTSUpRYUpTUWpMa1plK3Fxc1VxN0Nidko2cTNZcVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNDU4NjYyCWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CmJqd2dlTTdEcG1TQ2lkbUJqd3BuMTRPejZuMHZReGVyZTJPWFRZSDV3L1ROVjRrRldZZUt2Wk9uSWc5ZU90RkdVamxrMEs4VWZ5U3k0NGRqSVZjRkN3PT0K"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/updates/macos/releases/0.17.2/VENSUKO.Launcher_0.17.2_macos-x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUVjBETWJnK2F3WEF5OGhJdjQ5bG16bFhNSmFvdExKKzVDTWhOWlE5Vll5bmRMeWZxWkc2SDBteUhUSzlFMnBUdDllbmhDMU40YlBxZjA2bG5nRWlkL2Y2OFd3YlV5YkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjY2MzY2CWZpbGU6VkVOU1VLTyBMYXVuY2hlci5hcHAudGFyLmd6CmFHdjB3bUNuNmVlckZJMWEzL0NWR1FLUk9qZkpIY2Z4eHFCekxTaE04NmdKOVRTc2VLNHBXcGF6d0gxMEpvNjRyWVVaa2FseUtabXRNcS9mN2RJdENBPT0K"
     }
   }
 }
