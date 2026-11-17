@@ -1,12 +1,12 @@
 {
   "version": "1",
-  "timestamp": "2026-11-03T19:57:00Z",
+  "timestamp": "2026-11-17T14:35:12Z",
   "manifests": [
     {
-      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/manifests/games/lumorix-dropdash.json?v=3.1.0"
+      "url": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/distribution/manifests/games/lumorix-dropdash.json?v=3.1.0-art20261117"
     },
     {
-      "url": "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/launcher-manifest.json?v=1.0.1"
+      "url": "https://raw.githubusercontent.com/ju53648/cargo-shift-builds/main/launcher-manifest.json?v=1.0.1-art20261117"
     }
   ]
 }
