@@ -29,9 +29,9 @@
       "weight": 2
     }
   ],
-  "coverImage": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/2026-11-17-v2/dropdash/cover_2x3.webp",
-  "bannerImage": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/2026-11-17-v2/dropdash/banner_3x1.webp",
-  "iconImage": "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/2026-11-17-v2/dropdash/icon_512.webp",
+  "coverImage": "https://raw.githubusercontent.com/ju53648/launcher/main/public/assets/games/lumorix-dropdash-cover.svg",
+  "bannerImage": "https://raw.githubusercontent.com/ju53648/launcher/main/public/assets/games/lumorix-dropdash-banner.svg",
+  "iconImage": "https://raw.githubusercontent.com/ju53648/launcher/main/public/assets/games/lumorix-dropdash-icon.svg",
   "executable": "LumorixDropDash.exe",
   "installSizeBytes": 10159104,
   "defaultInstallFolder": "Lumorix DropDash",
