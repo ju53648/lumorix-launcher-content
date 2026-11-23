@@ -4,7 +4,7 @@
   "platform": "desktop",
   "name": "VENSUKO DropDash",
   "version": "3.1.0",
-  "description": "Dodge falling hazards, gather energy cores and climb the rankings. Five arcade modes, 102 achievements, shield combos and a new original soundtrack.",
+  "description": "React fast, dodge incoming hazards, and collect energy cores. Every run is another shot at a new high score.",
   "developer": "VENSUKO",
   "releaseDate": "2026-11-01",
   "categories": [
@@ -222,7 +222,7 @@
   },
   "localizations": {
     "en": {
-      "description": "Dodge falling hazards, gather energy cores and climb the rankings. Five arcade modes, 102 achievements, shield combos and a new original soundtrack.",
+      "description": "React fast, dodge incoming hazards, and collect energy cores. Every run is another shot at a new high score.",
       "changelog": {
         "3.0.0": [
           "Discover 102 achievements across ranked modes, streaks, shield blocks, scores and special challenges, including Expert and Legendary goals.",
@@ -263,7 +263,7 @@
       }
     },
     "de": {
-      "description": "Weiche fallenden Hindernissen aus, sammle Energiekerne und erklimme die Ranglisten. Fünf Arcade-Modi, 102 Erfolge, Schild-Kombos und ein neuer Original-Soundtrack.",
+      "description": "Reagiere schnell, weiche Hindernissen aus und sammle Energiekerne. Jeder Lauf ist eine neue Chance auf einen Highscore.",
       "changelog": {
         "3.0.0": [
           "102 Erfolge in verschiedenen Spielmodi: von einfachen Zielen bis zu Experten- und legendären Herausforderungen.",
@@ -304,7 +304,7 @@
       }
     },
     "pl": {
-      "description": "Unikaj spadających przeszkód, zbieraj rdzenie energii i awansuj w rankingach. Pięć trybów zręcznościowych, 102 osiągnięcia, kombinacje z tarczą i nowa oryginalna ścieżka dźwiękowa.",
+      "description": "Reaguj szybko, unikaj spadających przeszkód i zbieraj rdzenie energii. Każda runda to nowa szansa na rekord.",
       "changelog": {
         "3.0.0": [
           "102 osiągnięcia w różnych trybach gry: od prostych celów po wyzwania eksperckie i legendarne.",
