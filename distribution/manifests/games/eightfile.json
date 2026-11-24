@@ -3,7 +3,7 @@
     "itemType":  "game",
     "platform":  "desktop",
     "name":  "EIGHTFILE",
-    "version":  "0.9.4",
+    "version":  "0.9.5",
     "description":  "Play chess against the computer or a friend on the same PC. Explore 2D and 3D boards, a local career, the Club Cup and PGN replay. Internet multiplayer is not available in this version.",
     "developer":  "VENSUKO",
     "releaseDate":  "2026-11-24",
@@ -31,7 +31,7 @@
                  }
              ],
     "coverImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-cover.webp",
-    "bannerImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-banner.webp",
+    "bannerImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.5/eightfile-banner-0.9.5.webp",
     "iconImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-icon.png",
     "executable":  "EIGHTFILE.exe",
     "requiredPaths":  [
@@ -40,7 +40,7 @@
                           "LICENSES/GODOT-THIRD-PARTY-COPYRIGHT.txt",
                           "LICENSES/EIGHTFILE-NOTICE.txt"
                       ],
-    "installSizeBytes":  112316591,
+    "installSizeBytes":  112321119,
     "defaultInstallFolder":  "EIGHTFILE",
     "distribution":  {
                          "channel":  "direct",
@@ -49,6 +49,8 @@
     "supportedActions":  [
                              "install",
                              "launch",
+                             "update",
+                             "repair",
                              "uninstall",
                              "openFolder"
                          ],
@@ -58,11 +60,21 @@
                         },
     "download":  {
                      "kind":  "httpArchive",
-                     "url":  "https://github.com/ju53648/vensuko-chess-builds/releases/download/v0.9.4/eightfile-0.9.4-r38-win64.zip",
-                     "sha256":  "798698edb421eaa0823dd54fb9a43db7a376ac4c0b683b9c14c1dca1bea2bd54",
-                     "sizeBytes":  40173174
+                     "url":  "https://github.com/ju53648/vensuko-chess-builds/releases/download/v0.9.5/eightfile-0.9.5-r39-win64.zip",
+                     "sha256":  "ce5b0719a580bbfead2539a77f720f9c21f62494060c136ab9a768997d831c34",
+                     "sizeBytes":  40174141
                  },
     "changelog":  [
+                      {
+                          "date":  "2026-11-24",
+                          "version":  "0.9.5",
+                          "items":  [
+                                        "New 3D board loading feedback.",
+                                        "Clearer offline availability information.",
+                                        "Launcher update and repair support.",
+                                        "Existing local saves and career progress remain compatible."
+                                    ]
+                      },
                       {
                           "version":  "0.9.4",
                           "date":  "2026-11-24",
@@ -88,6 +100,12 @@
                                                                      "2D- und 3D-Bretter, Kameraperspektiven und Schachhalle.",
                                                                      "Lokale Karriere-XP, freischaltbare Brettdesigns und Club Cup mit drei Runden.",
                                                                      "PGN-Partien analysieren, Schachuhren und Barrierefreiheit einstellen."
+                                                                 ],
+                                                       "0.9.5":  [
+                                                                     "Neue Ladeanzeige fuer das 3D-Brett.",
+                                                                     "Klarere Hinweise zur Offline-Verfuegbarkeit.",
+                                                                     "Updates und Reparatur im Launcher.",
+                                                                     "Vorhandene lokale Spielstaende und Karrierefortschritte bleiben kompatibel."
                                                                  ]
                                                    }
                                  },
@@ -104,6 +122,12 @@
                                                                      "Plansze 2D i 3D, widoki kamery i sala szachowa.",
                                                                      "Lokalne XP kariery, odblokowywane plansze i trzyrundowy Club Cup.",
                                                                      "Analiza PGN, zegary szachowe i ustawienia dostępności."
+                                                                 ],
+                                                       "0.9.5":  [
+                                                                     "Nowy ekran ladowania planszy 3D.",
+                                                                     "Jasne informacje o trybie offline.",
+                                                                     "Aktualizacja i naprawa w launcherze.",
+                                                                     "Zachowanie lokalnych zapisow gry i postepow kariery."
                                                                  ]
                                                    }
                                  }
