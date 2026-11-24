@@ -31,7 +31,7 @@
                  }
              ],
     "coverImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-cover.webp",
-    "bannerImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.5/eightfile-banner-0.9.5.webp",
+    "bannerImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-banner.webp",
     "iconImage":  "https://raw.githubusercontent.com/ju53648/lumorix-launcher-content/main/artwork/eightfile/0.9.4/eightfile-icon.png",
     "executable":  "EIGHTFILE.exe",
     "requiredPaths":  [
