@@ -3,10 +3,10 @@
     "itemType":  "game",
     "platform":  "desktop",
     "name":  "EIGHTFILE",
-    "version":  "0.9.5",
-    "description":  "Play chess against the computer or a friend on the same PC. Explore 2D and 3D boards, a local career, the Club Cup and PGN replay. Internet multiplayer is not available in this version.",
+    "version":  "0.9.6",
+    "description":  "Play chess locally, explore a redesigned 3D chess hall and review games with Stockfish 19. Enjoy improved controls, training, career, board annotations and PGN analysis. Internet multiplayer is not available in the current public launcher.",
     "developer":  "VENSUKO",
-    "releaseDate":  "2026-11-24",
+    "releaseDate":  "2026-11-25",
     "categories":  [
                        "Strategy",
                        "Board",
@@ -38,9 +38,13 @@
                           "EIGHTFILE.exe",
                           "LICENSES/GODOT-MIT.txt",
                           "LICENSES/GODOT-THIRD-PARTY-COPYRIGHT.txt",
-                          "LICENSES/EIGHTFILE-NOTICE.txt"
+                          "LICENSES/EIGHTFILE-NOTICE.txt",
+                          "stockfish/stockfish-windows-x86-64-universal.exe",
+                          "stockfish/Copying.txt",
+                          "stockfish/stockfish-sf_19-source.zip",
+                          "stockfish/src/nn-1a298aa575a0.nnue"
                       ],
-    "installSizeBytes":  112321119,
+    "installSizeBytes":  453397695,
     "defaultInstallFolder":  "EIGHTFILE",
     "distribution":  {
                          "channel":  "direct",
@@ -60,11 +64,23 @@
                         },
     "download":  {
                      "kind":  "httpArchive",
-                     "url":  "https://github.com/ju53648/vensuko-chess-builds/releases/download/v0.9.5/eightfile-0.9.5-r39-win64.zip",
-                     "sha256":  "ce5b0719a580bbfead2539a77f720f9c21f62494060c136ab9a768997d831c34",
-                     "sizeBytes":  40174141
+                     "url":  "https://github.com/ju53648/vensuko-chess-builds/releases/download/v0.9.6/eightfile-0.9.6-r60-win64.zip",
+                     "sha256":  "9beb82bd762b6f6bbe309cac6f74209744c9ac251b1b82648061a01869c22b64",
+                     "sizeBytes":  332673521
                  },
     "changelog":  [
+                      {
+                          "version":  "0.9.6",
+                          "date":  "2026-11-25",
+                          "items":  [
+                                        "Redesigned 3D chess hall, realistic pieces and materials, improved cinematic lighting and graphics settings.",
+                                        "Clearer menus and match layout, custom controls, player clocks, captured pieces and material advantage.",
+                                        "90-degree camera rotation, free 3D orbit and interactive 2D board markings.",
+                                        "Stockfish 19 local analysis with up to three variations, move assessments and clickable evaluation history.",
+                                        "Refined audio and game review. Internet multiplayer remains unavailable in the current public launcher."
+                                    ],
+                          "imageUrl":  "https://github.com/ju53648/vensuko-chess-builds/releases/download/v0.9.6/eightfile-update-0.9.6.png"
+                      },
                       {
                           "date":  "2026-11-24",
                           "version":  "0.9.5",
@@ -88,7 +104,7 @@
                   ],
     "localizations":  {
                           "de":  {
-                                     "description":  "Spiele Schach gegen den Computer oder zu zweit am selben PC. Entdecke 2D- und 3D-Bretter, lokale Karriere, Club Cup und PGN-Replay. Internet-Mehrspieler ist in dieser Version nicht verfuegbar.",
+                                     "description":  "Spiele lokal Schach, erkunde die neue 3D-Schachhalle und analysiere Partien mit Stockfish 19. Verbesserte Steuerung, Training, Karriere und Brettmarkierungen. Internet-Mehrspieler ist im aktuellen oeffentlichen Launcher nicht verfuegbar.",
                                      "categories":  [
                                                         "Strategie",
                                                         "Brettspiel",
@@ -106,11 +122,18 @@
                                                                      "Klarere Hinweise zur Offline-Verfuegbarkeit.",
                                                                      "Updates und Reparatur im Launcher.",
                                                                      "Vorhandene lokale Spielstaende und Karrierefortschritte bleiben kompatibel."
+                                                                 ],
+                                                       "0.9.6":  [
+                                                                     "Neu gestaltete 3D-Schachhalle, realistische Figuren und Materialien sowie verbesserte Beleuchtung und Grafikprofile.",
+                                                                     "Uebersichtlichere Menues und Partieansicht, eigene Bedienelemente, Schachuhren, geschlagene Figuren und Materialvorteil.",
+                                                                     "90-Grad-Kameradrehung, freies Umschauen in 3D und interaktive 2D-Brettmarkierungen.",
+                                                                     "Lokale Stockfish-19-Analyse mit bis zu drei Varianten, Zugbewertungen und anklickbarem Bewertungsverlauf.",
+                                                                     "Verbessertes Sounddesign und Partieanalyse. Internet-Mehrspieler bleibt im aktuellen oeffentlichen Launcher nicht verfuegbar."
                                                                  ]
                                                    }
                                  },
                           "pl":  {
-                                     "description":  "Graj w szachy z komputerem lub z druga osoba na tym samym PC. Odkryj plansze 2D i 3D, lokalna kariere, Club Cup i odtwarzanie PGN. Tryb internetowy nie jest dostepny w tej wersji.",
+                                     "description":  "Graj lokalnie w szachy, odkrywaj nowa sale 3D i analizuj partie z Stockfish 19. Ulepszone sterowanie, trening, kariera i oznaczenia planszy. Tryb internetowy niedostepny w publicznym launcherze.",
                                      "categories":  [
                                                         "Strategia",
                                                         "Gra planszowa",
@@ -128,6 +151,13 @@
                                                                      "Jasne informacje o trybie offline.",
                                                                      "Aktualizacja i naprawa w launcherze.",
                                                                      "Zachowanie lokalnych zapisow gry i postepow kariery."
+                                                                 ],
+                                                       "0.9.6":  [
+                                                                     "Nowa sala szachowa 3D, realistyczne figury i materialy, lepsze oswietlenie i ustawienia grafiki.",
+                                                                     "Czytelniejsze menu i widok partii, nowe kontrolki, zegary, zbite figury i przewaga materialna.",
+                                                                     "Obrot kamery o 90 stopni, swobodny widok 3D oraz oznaczenia na planszy 2D.",
+                                                                     "Lokalna analiza Stockfish 19: do trzech wariantow, ocena ruchow i interaktywny wykres ocen.",
+                                                                     "Ulepszone dzwieki i analiza partii. Tryb internetowy nadal niedostepny w publicznym launcherze."
                                                                  ]
                                                    }
                                  }
